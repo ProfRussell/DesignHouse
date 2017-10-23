@@ -77,6 +77,17 @@ blockquote.pull-right {
     float: right;
     margin: 0 0 10px 10px;
 }
+
+.main-content {
+  word-wrap: break-word;
+
+  @include large {
+    max-width: 94rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+}
 p {
 	font-size: 1em;
   }
